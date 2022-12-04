@@ -1,0 +1,11 @@
+package school.report;
+
+import school.*;
+
+public class GenerateGradeReport {
+	School school = School.getInstance();
+	
+	public static final String TITLE = "";
+	public static final String HEADER = "";
+	public static final String LINE = "===============================\n";
+}

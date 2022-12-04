@@ -1,0 +1,13 @@
+package application;
+
+import school.School;
+
+public class StudentApplication {
+	School school = school.getInstance();
+	
+	
+	public static void main(String[] args) {
+
+	}
+
+}

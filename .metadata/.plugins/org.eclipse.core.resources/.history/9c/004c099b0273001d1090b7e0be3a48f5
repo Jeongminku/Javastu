@@ -1,0 +1,11 @@
+package grade;
+
+public class BasicEvalu implements GradeEvaluation {
+
+	@Override
+	public String getGrade(int point) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

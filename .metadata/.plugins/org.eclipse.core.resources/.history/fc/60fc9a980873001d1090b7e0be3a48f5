@@ -1,0 +1,16 @@
+package application;
+
+import school.*;
+
+
+public class StudentApplication {
+
+	School goodSchool = School.getInstance();
+	Subject korean;
+	
+	public static void main(String[] args) {
+		
+
+	}
+
+}

@@ -1,0 +1,8 @@
+package school.report;
+
+import school.*;
+
+public class GenerateGradeReport {
+	School school = School.getInstance();
+	public static final Stirng TITLE = 
+}

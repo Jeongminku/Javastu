@@ -1,0 +1,22 @@
+package school;
+
+import java.util.ArrayList;
+
+import utils.Define;
+
+public class Subject {
+	private String customerList;
+	private int subjectId;
+	private int gradeType;
+	private ArrayList<Student> studentList = new ArrayList<Student>();
+	
+	public Subject(String customerList, int subjectId, int gradeType) {
+		this.customerList = customerList;
+		this.subjectId = subjectId;
+		this.gradeType = Define.AF_TYPE;
+	}
+	
+	public void register(Student student) {
+		
+	}
+}

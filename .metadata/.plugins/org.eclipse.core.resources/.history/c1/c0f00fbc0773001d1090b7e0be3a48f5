@@ -1,0 +1,15 @@
+package school;
+
+import java.util.ArrayList;
+
+public class School {
+	private static School instance = new School();
+	private String SCHOOL_NAME = "goodSchool";
+	
+	private ArrayList<Student> studentList = new ArrayList<Student>();
+	private ArrayList<Subject> subjectList = new ArrayList<Subject>();
+	
+	private School() {
+		
+	}
+}

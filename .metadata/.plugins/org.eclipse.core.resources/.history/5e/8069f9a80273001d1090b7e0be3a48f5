@@ -1,0 +1,12 @@
+package grade;
+
+public class BasicEvalu implements GradeEvaluation {
+
+	@Override
+	public String getGrade(int point) {
+		int Grade;
+		if(100 >= point || )
+		return Grade;
+	}
+
+}

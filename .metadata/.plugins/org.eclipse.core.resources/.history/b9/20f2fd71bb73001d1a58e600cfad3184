@@ -1,0 +1,30 @@
+package application;
+
+import school.*;
+import utils.Define;
+
+public class StudentApplication {
+	School goodSchool = School.getInstance();
+	Subject korean;
+	Subject math;
+	
+	public static void main(String[] args) {
+	StudentApplication test = new StudentApplication();
+	
+	}
+	
+	public void createSubject() {
+		korean = new Subject("국어",Define.KOREAN);
+		math = new Subject("수학",Define.MATH);
+		
+		goodSchool.addSubject(korean);
+		
+		
+	}
+
+	public void createStudent() {
+		
+	}
+	
+	
+}

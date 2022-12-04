@@ -1,0 +1,16 @@
+package school;
+
+public class Score {
+	int studentId;
+	Subject subject;
+	int point;
+	
+	Score(int studentId, Subject subject, int point) {
+		
+	}
+	
+	String toString() {
+		
+	}
+	
+}

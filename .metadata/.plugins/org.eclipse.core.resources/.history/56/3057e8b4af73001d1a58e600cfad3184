@@ -1,0 +1,11 @@
+package grade;
+
+public class BasicEvalutation implements GradeEvalutation {
+
+	@Override
+	public String getGrade(int point) {
+
+		return null;
+	}
+
+}

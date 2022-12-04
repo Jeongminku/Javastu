@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="Nov4.Polymorphism.Interface.MemberIntroduction"/>
+    <fullyQualifiedTypeName name="Nov4.Polymorphism.Interface.Introduce"/>
+    <fullyQualifiedTypeName name="Nov4.Polymorphism.Introduce"/>
+    <fullyQualifiedTypeName name="Nov4.Polymorphism.Fan"/>
+    <fullyQualifiedTypeName name="javax.swing.filechooser.FileNameExtensionFilter"/>
+    <fullyQualifiedTypeName name="java.util.Scanner"/>
+    <fullyQualifiedTypeName name="java.nio.file.FileSystemLoopException"/>
+    <fullyQualifiedTypeName name="java.lang.System"/>
+    <fullyQualifiedTypeName name="Nov4.PolyFan.Fan"/>
+    <fullyQualifiedTypeName name="java.lang.String"/>
+    <fullyQualifiedTypeName name="application.StudentApplication"/>
+    <fullyQualifiedTypeName name="school.Subject"/>
+    <fullyQualifiedTypeName name="school.Student"/>
+    <fullyQualifiedTypeName name="school.Score"/>
+    <fullyQualifiedTypeName name="school.School"/>
+    <fullyQualifiedTypeName name="java.lang.StringBuffer"/>
+    <fullyQualifiedTypeName name="java.util.ArrayList"/>
+    <fullyQualifiedTypeName name="grade.GradeEvaluation"/>
+    <fullyQualifiedTypeName name="grade.MajorEvalu"/>
+    <fullyQualifiedTypeName name="grade.BasicEvalu"/>
+    <fullyQualifiedTypeName name="utils.Define"/>
+    <fullyQualifiedTypeName name="school.report.GenerateGradeReport"/>
+</qualifiedTypeNameHistroy>

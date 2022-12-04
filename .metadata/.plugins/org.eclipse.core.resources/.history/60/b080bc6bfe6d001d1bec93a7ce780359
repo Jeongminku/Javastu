@@ -1,0 +1,62 @@
+package Nov4.PolyFan;
+
+import java.nio.file.FileSystemLoopException;
+import java.util.ArrayList;
+import java.util.Scanner;
+
+public class FanApp {
+
+
+	
+	private static ArrayList<Fan> fanList = new ArrayList<Fan>();
+	
+	public static void main(String[] args) {
+	
+		//아메바
+		Fan poong = new Fan("풍신");
+		
+		//진드기
+		Fan eviFry = new FanJin("새우튀김");
+		
+		//왁무새
+		Fan biKim = new FanWak("비즈니스 킴"); 
+		
+		//침팬치
+		Fan roent = new FanChim("뢴트게늄");
+			
+		
+		fanList.add(poong);
+		fanList.add(eviFry);
+		fanList.add(biKim);
+		fanList.add(roent);
+		
+	
+		showAllFan();
+		
+		inputFanName();
+		
+		
+	}
+
+	public static void showAllFan() {
+		System.out.println("========팬 목록 출력========");
+		
+		for (Fan fan : fanList) {
+			System.out.println(fan.showFanInfo());
+		}
+	}
+	
+	
+	public static void inputFanName() {
+		System.out.println("이름을 입력해주세요: ");
+		Fan fan = new Fan();
+		Scanner sc = new Scanner(System.in);	
+		String inputName = sc.nextLine();
+		fan.setFanName(inputName);
+		System.out.println(fan.getFanName());
+		
+	}
+	
+	
+	
+}

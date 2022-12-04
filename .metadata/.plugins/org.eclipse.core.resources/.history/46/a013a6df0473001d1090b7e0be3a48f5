@@ -1,0 +1,18 @@
+package school;
+
+public class Score {
+	int studentId;
+	Subject subject;
+	int point;
+	
+	Score(int studentId, Subject subject, int point) {
+		
+	}
+
+	@Override
+	public String toString() {
+		return super.toString();
+	}
+	
+	
+}

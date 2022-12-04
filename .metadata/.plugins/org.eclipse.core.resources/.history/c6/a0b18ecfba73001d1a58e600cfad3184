@@ -1,0 +1,11 @@
+package application;
+
+import school.*;
+
+public class StudentApplication {
+	
+	
+	public static void main(String[] args) {
+		
+	}
+}

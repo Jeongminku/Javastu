@@ -1,0 +1,17 @@
+package school;
+
+import java.util.ArrayList;
+
+public class School {
+	School instance = new School();
+	ArrayList<Student> studentList = new ArrayList<Student>();
+	ArrayList<Subject> subjectList = new ArrayList<Subject>();
+	StringBuffer buffer = new StringBuffer();
+	
+	public School getInstance() {
+		if(instance == null) {
+			instance = new School();
+		}
+		return instance;
+	}
+}

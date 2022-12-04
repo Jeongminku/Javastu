@@ -1,0 +1,15 @@
+package Nov4.PolyFan;
+
+public class FanChim extends Fan {
+	public FanChim(String fanName) {
+		super(fanName);
+		super.setFanGrade("침팬치");
+		
+	}
+
+	@Override
+	public String showFanInfo() {
+		
+		return super.showFanInfo() + "원픽은" + "아이네 입니다";
+	}
+}

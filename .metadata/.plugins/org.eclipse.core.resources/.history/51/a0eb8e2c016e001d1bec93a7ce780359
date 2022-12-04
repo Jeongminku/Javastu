@@ -1,0 +1,13 @@
+package Nov4.PolyFan;
+
+public class FanChim extends Fan {
+	public FanChim(String fanName, String osi) {
+		super(fanName, osi);
+		super.setFanGrade("침팬치");
+	}
+	
+	
+	public void typeCoercion() {
+		System.out.println("강제타입변환 성공");
+	}
+}

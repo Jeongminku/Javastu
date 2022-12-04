@@ -1,0 +1,30 @@
+package application;
+
+import school.*;
+import school.report.GenerateGradeReport;
+import utils.Define;
+
+public class StudentApplication {
+	School goodSchool = School.getInstance();
+	Subject korean;
+	Subject math;
+	
+	GenerateGradeReport gradeReport = new GenerateGradeReport();
+	
+	public static void main(String[] args) {
+		
+	
+	}
+
+	public void createSubject(Student student) {
+		korean = new Subject("국어", Define.KOREAN);
+		
+		
+		
+	}
+	
+	public void createStudent() {
+		
+	}
+	
+}

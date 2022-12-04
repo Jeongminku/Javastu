@@ -1,0 +1,45 @@
+package school.report;
+
+import java.util.ArrayList;
+
+import school.*;
+
+public class GenerateGradeReport {
+	School school = School.getInstance();
+	public static final String TITLE = "수강생 학점 \t\t\n";
+	public static final String HEADER = "이름   |   학번  |  필수과목  |  점수  \n";
+	public static final String LINE = "================================\n";
+	
+	StringBuffer buffer = new StringBuffer();
+	
+	public String getReport () {
+		ArrayList<Subject> subjectList = new ArrayList<>();
+		for (Subject subject : subjectList) {
+			makeHeader(subject);
+			makeBody(subject);
+			makeFooter();
+		}
+		
+		return buffer.toString();
+	}
+	
+	public void makeHeader(Subject subject) {
+		buffer.append(LINE);
+		buffer.append("\t" + subject.getSubjectName());
+		buffer.append(TITLE);
+		buffer.append(HEADER);
+	}
+	
+	
+	public void makeBody(Subject subject) {
+		
+	}
+	
+	
+	public void makeFooter() {
+		System.out.println("\n");
+	}
+	
+	
+	
+}

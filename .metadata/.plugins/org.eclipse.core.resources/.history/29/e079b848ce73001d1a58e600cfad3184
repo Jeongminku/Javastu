@@ -1,0 +1,17 @@
+package application;
+
+import school.*;
+
+public class StudentApplication {
+	School school = school.getInstance();
+	Subject korean;
+	Subject math;
+	
+	
+	public static void main(String[] args) {
+
+	}
+
+	
+	
+}

@@ -1,0 +1,70 @@
+package school.report;
+
+import java.util.ArrayList;
+
+import grade.BasicEvalutation;
+import grade.GradeEvalutation;
+import grade.MajorEvalutation;
+import school.*;
+
+public class GenerateGradeReport {
+	School school = School.getInstance();
+	public static final String TITLE = "수강생 학점 \t\t\n";
+	public static final String HEADER = "이름   |   학번  |  필수과목  |  점수  \n";
+	public static final String LINE = "================================\n";
+	
+	StringBuffer buffer = new StringBuffer();
+	
+	public String getReport () {
+		ArrayList<Subject> subjectList = school.getSubjectList();
+		for (Subject subject : subjectList) {
+			makeHeader(subject);
+			makeBody(subject);
+			makeFooter();
+		}
+		
+		return buffer.toString();
+	}
+	
+	public void makeHeader(Subject subject) {
+		buffer.append(LINE);
+		buffer.append("\t" + subject.getSubjectName());
+		buffer.append(TITLE);
+		buffer.append(HEADER);
+		buffer.append(LINE);
+	}
+	
+	
+	public void makeBody(Subject subject) {
+		ArrayList<Student> studentList = school.getStudentList();
+		for (int i = 0; i < studentList.size(); i++) {
+			Student student = studentList.get(i);
+			buffer.append(student.getStudentName());
+			buffer.append(" | ");
+			buffer.append(student.getStudentId());
+			buffer.append(" | ");
+			buffer.append(student.getMajorSubject());
+			buffer.append(" | ");
+		}
+		
+	}
+	
+	public void getScoreGrade(Student student, int subjectId) {
+		ArrayList<Score> scoreList = student.getScoreList();
+		int majorID = student.getMajorSubject().getSubjectId();
+		GradeEvalutation[] GradeEvalutation = {new BasicEvalutation(), new MajorEvalutation()};
+		
+		for (int i = 0; i < scoreList.size(), i++) {
+			Score score = scoreList.get(i);
+		}
+	}
+	
+	
+	
+	public void makeFooter() {
+		System.out.println("\n");
+	}
+	
+	
+	
+}

@@ -1,0 +1,5 @@
+package school;
+
+public class School {
+	private static School instance = new School();
+}

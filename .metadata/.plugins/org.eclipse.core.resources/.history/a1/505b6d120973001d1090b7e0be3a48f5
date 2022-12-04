@@ -1,0 +1,27 @@
+package application;
+
+import school.*;
+import school.report.GenerateGradeReport;
+
+
+public class StudentApplication {
+
+	School goodSchool = School.getInstance();
+	Subject korean;
+	Subject math;
+	
+	GenerateGradeReport gradeReport = new GenerateGradeReport();
+	
+	public static void main(String[] args) {
+	StudentApplication test = new StudentApplication();
+	
+
+	}
+
+	public void createSubject() {
+		korean = new Subject()
+	}
+	
+	
+	
+}
